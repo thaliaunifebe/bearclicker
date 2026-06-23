@@ -9,11 +9,6 @@ body {
     margin: auto;
 }
 
-#cookie {
-    width: 250px;
-    cursor: pointer;
-}
-
 button {
     padding: 10px 20px;
     margin: 5px;
