@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEAR CLICKER</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Freckle+Face&family=Fredoka:wght@300..700&family=Kulim+Park:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&family=Londrina+Shadow&family=Luckiest+Guy&family=Sekuya&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Bear Clicker</h1>
+
+        <img src="images/bear.gif" alt="ursinho">
+
+        <h2>Pontuação: <span id="score">0</span></h2>
+        <p>Valor por clique: <span id="clickValue">1</span></p>
+        <p>Upgrades comprados: <span id="upgrades">0</span></p>
+
+        <button id="clickBtn">CLIQUE AQUI!</button>
+        </br>
+        </br>
+        <h2>Loja de Upgrades</h2>
+
+        <div class="upgrade">
+            <p>Upgrade 1 (+1 clique)</p>
+            <p>Custo: 10 pontos</p>
+            <button onclick="buyUpgrade(1)">Comprar</button>
+        </div>
+
+        <div class="upgrade">
+            <p>Upgrade 2 (+8 clique)</p>
+            <p>Custo: 50 pontos</p>
+            <button onclick="buyUpgrade(2)">Comprar</button>
+        </div>
+
+        <div class="upgrade">
+            <p>Upgrade 3 (+32 clique)</p>
+            <p>Custo: 100 pontos</p>
+            <button onclick="buyUpgrade(3)">Comprar</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
